@@ -41,7 +41,21 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 30px;
+  /* padding-top: 30px; */
+  position: absolute;
+  top: 0;
+  flex-direction: column;
+}
+
+.home-section h1 {
+  font-size: 137px;
+  font-weight: 900;
+  color: #f9173f;
+}
+
+.home-section h2 {
+  color: white;
+  text-shadow: 0 0 3px black;
 }
 
 .home-1 {
@@ -142,11 +156,11 @@ a {
   align-items: center;
   justify-content: space-between;
   padding-right: 15px;
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid white;
   width: 100%;
   position: absolute;
   z-index: 999;
-  background-color: white;
+  background-color: #ff6580;
 }
 
 .search-bar {
@@ -176,7 +190,7 @@ a {
   border: none;
   font-size: 20px;
   font-family: system-ui;
-  color: #403e3e;
+  color: white;
   background-color: transparent;
 }
 
@@ -201,12 +215,22 @@ a {
   top: 0;
   z-index: 10;
   /* background-color: #08213761; */
-  background-color: beige;
+  background-color: transparent;
+}
+
+.nav-btn {
+  gap: 20px;
+  background-color: white;
+  padding: 5px 30px;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ------------------logo---------- */
 #logo {
-  color: black;
+  color: white;
   font-size: 25px;
   padding: 5px 10px;
 }
@@ -259,8 +283,9 @@ a {
 }
 
 .cart-btn i {
-  color: black;
+  color: white;
   font-size: 25px;
+  text-shadow: 0px 0px 4px black;
 }
 
 .no-cart {
@@ -291,16 +316,30 @@ a {
   border-radius: 9px;
 }
 
+/*------------------------------------ Background image ------------------ */
+.bgImg {
+  width: 100%;
+  height: 100vh;
+  /* position: fixed; */
+  top: 0;
+  z-index: -1;
+}
+
+.bgImg video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
 /*------------------------------------ hemburger------------------ */
 
 .hemburger i {
   color: white;
   font-size: 23px;
-  background-color: black;
+  /* background-color: #ff3659; */
   border-radius: 3px;
   padding: 5px 10px;
   cursor: pointer;
-  border: 1px solid;
 }
 
 .backdrop {
@@ -612,16 +651,13 @@ a {
 
 /* -------------------------- search bar icon --------------------------- */
 .search-icon {
-  /* position: fixed; */
-  bottom: 5%;
-  right: 2%;
-  font-size: 1rem;
-  background-color: black;
-  padding: 5px;
+  font-size: 12px;
+  background-color: #ff3659;
+  padding: 2px;
   cursor: pointer;
-  border-radius: 5px;
-  width: 25px;
-  height: 25px;
+  border-radius: 50px;
+  width: 22px;
+  height: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -634,7 +670,6 @@ a {
 .search-section {
   overflow-y: scroll;
   height: 100vh;
-  margin-top: 10%;
 }
 
 .search-container {
@@ -657,6 +692,7 @@ a {
   cursor: pointer;
   font-size: 20px;
   width: 20%;
+  color: white;
 }
 
 /* ----------------------------- Comics Section ---------------------------- */

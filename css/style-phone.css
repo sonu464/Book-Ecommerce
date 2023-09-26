@@ -1,19 +1,19 @@
 @media (max-width: 550px) {
   /* ---------------- hemburger -------------- */
   .hemburger i {
-    background-color: #000000;
+    background-color: transparent;
   }
 
   /* ------------------ Logo -------------------- */
   #logo {
     color: black;
-    font-size: 17px;
+    font-size: 12px;
     border-radius: 3px;
     padding: 5px 10px;
   }
 
   #logo::first-letter {
-    color: red;
+    color: white;
     font-size: 25px;
   }
 
@@ -28,7 +28,42 @@
     top: 0;
     z-index: 10;
     /* background-color: #08213761; */
-    background-color: beige;
+    /* background-color: beige; */
+  }
+
+  .nav-btn {
+    gap: 4px;
+    background-color: white;
+    padding: 1px 15px;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-icon {
+    font-size: 6px;
+    padding: 2px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .home-section h1 {
+    font-size: 68px;
+    font-weight: 900;
+    color: #f9173f;
+  }
+
+  .search-book {
+    background-color: rgba(249, 23, 63);
+  }
+
+  #search:focus {
+    background-color: rgba(249, 23, 63);
+  }
+
+  .search-section {
+    margin-top: 20%;
   }
 
   /* -------------- Comic Section ----------------- */
@@ -133,10 +168,11 @@
 
   .storeItem h2 {
     font-size: 14px;
+    color: black;
   }
 
   .storeItem span {
-    color: #ebd5b9;
+    color: black;
     font-size: 10px;
     padding-top: 5px;
   }
@@ -181,8 +217,8 @@
   }
 
   .cart-btn i {
-    color: #1a1414;
-    font-size: 19px;
+    color: #ffffff;
+    font-size: 15px;
   }
 
   .cartInfo {

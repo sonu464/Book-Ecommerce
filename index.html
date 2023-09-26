@@ -19,20 +19,22 @@
       </div>
 
       <div class="links">
-        <ul>
+        <!-- <ul>
           <li><a href="#home-section">Home</a></li>
           <li><a href="#allBookHomePage">Our Products</a></li>
-        </ul>
+        </ul> -->
       </div>
 
-      <div id="cartBtn" class="cart-btn">
-        <i class="fa-solid fa-cart-shopping"></i>
-      </div>
+      <div class="nav-btn">
+        <div id="search-icon-btn" class="search-icon">
+          <span>
+            <i class="fa-solid fa-search"></i>
+          </span>
+        </div>
 
-      <div id="search-icon-btn" class="search-icon">
-        <span>
-          <i class="fa-solid fa-search"></i>
-        </span>
+        <div id="cartBtn" class="cart-btn">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
       </div>
 
       <div class="hemburger" id="hemburger">
@@ -51,11 +53,20 @@
       </div>
     </nav>
 
+    <!-- Background Image -->
+    <div class="bgImg">
+      <video autoplay loop muted src="images/bgvideo.mp4"></video>
+    </div>
+
     <!-- search section -->
     <div id="search-container" class="search-container">
       <div id="" class="search-book">
         <div class="search-bar">
-          <input id="search" type="text" placeholder="Book, Writer or author" />
+          <input
+            id="search"
+            type="search"
+            placeholder="Book, Writer or author"
+          />
           <!-- <i id="search-btn" class="fa-solid fa-search"></i> -->
         </div>
         <span id="search-exit" class="searchExit">Cancel</span>
@@ -84,7 +95,9 @@
     </div>
 
     <section id="home-section" class="home-section">
-      <div id="homeMain" class="home-1">
+      <h1>BBForU</h1>
+      <h2>Provide World Best Books</h2>
+      <!-- <div id="homeMain" class="home-1">
         <div class="pic">
           <img src="images/searchbg2.jpg" alt="" />
         </div>
@@ -95,7 +108,7 @@
             <p>Provide world best books</p>
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
 
     <!-- <div class="cartValue" id="cartValue"></div> -->
@@ -176,6 +189,19 @@
       </div>
     </footer>
 
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+      integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"
+      integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script/gsap.js"></script>
     <script src="script/script.js"></script>
     <script
       src="https://kit.fontawesome.com/5a2806fb6d.js"
