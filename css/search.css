@@ -1,0 +1,51 @@
+body {
+  background: none;
+}
+
+.search-book {
+  background: url("images/searchbg2.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 44vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-section {
+  width: 100%;
+  background-color: white;
+  padding-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search-bar {
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 50px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* animation: searchAni 2s linear; */
+  width: 80%;
+}
+
+@media (max-width: 550px) {
+  .search-section {
+    padding-top: 2%;
+  }
+
+  .search-bar i {
+    margin: 0;
+  }
+
+  .footer {
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Center-align the content */
+    padding: 40px 0px; /* Padding top and bottom */
+  }
+}
