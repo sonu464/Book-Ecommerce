@@ -44,7 +44,7 @@ a {
   /* padding-top: 30px; */
   position: absolute;
   top: 0;
-  flex-direction: column;
+  flex-direction: columnz-index:-1;
 }
 
 .home-section h1 {
