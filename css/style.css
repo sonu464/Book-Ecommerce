@@ -316,6 +316,74 @@ a {
   border-radius: 9px;
 }
 
+ /* __________________menu page section _____________________  */
+
+.menubar {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.menubox {
+  width: 100%;
+  padding: 5px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.menuhead {
+  width: 50%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  cursor:pointer;
+  
+}
+.menuhead .head{
+
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-bottom: 2px solid black;
+    border-radius: 3px;
+}
+.menuhead .arrow{
+    margin-left: 15px;
+    font-weight: bold;
+
+}
+.moreop {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid pink;
+  border-radius: 5px;
+  background: rgb(255, 2, 86);
+  overflow: hidden;
+}
+.moreop li {
+  /* width: 100%; */
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  /* background: rgb(255, 0, 85); */
+  color: white;
+  list-style: none;
+  margin: 5px;
+}
+ /* __________________ end of menu pagea _____________________  */
+
+
+
 /*------------------------------------ Background image ------------------ */
 .bgImg {
   width: 100%;
