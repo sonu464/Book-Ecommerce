@@ -11,3 +11,15 @@ gsap.to("#navigation", {
     scrub: 1,
   },
 });
+
+gsap.to("#allBookHomePage", {
+  backgroundColor: "rgb(249, 23, 63)",
+  scrollTrigger: {
+    trigger: "#allBookHomePage",
+    scroller: "body",
+    // markers: true,
+    start: "top 70%",
+    end: "top 10%%",
+    scrub: 1,
+  },
+});
