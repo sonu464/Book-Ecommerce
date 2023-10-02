@@ -6,6 +6,7 @@
     <title>BestBooksForYou</title>
     <link rel="web icon" href="/images/icon.jpeg" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/menu.css" />
     <link rel="stylesheet" href="css/style-phone.css" />
     <link rel="shortcut icon" href="images/booklogo.png" type="image/x-icon" />
   </head>
@@ -37,17 +38,58 @@
         </div>
       </div>
 
+      <!-- Hemburger -->
       <div class="hemburger" id="hemburger">
         <i class="fa-solid fa-bars"></i>
       </div>
+      <!-- Menu Bar  -->
       <div id="backdrop" class="backdrop">
         <div id="menu" class="menu">
-          <ul>
-            <li><a onclick="hideMenu()" href="#home-section">Home</a></li>
-            <li>
-              <a onclick="hideMenu()" href="#allBookHomePage">Our Products</a>
-            </li>
-          </ul>
+          <div class="menubox cetegoriesbox">
+            <div class="menuhead cetegories arrow" data-target="cetegories-op">
+              <span class="head">cetegories</span>
+              <span class="arrowBtn" data-target="cetegories-op">></span>
+            </div>
+
+            <div class="moreop option" id="cetegories-op">
+              <li>General Knowledge</li>
+              <li>God Books</li>
+              <li>Comics</li>
+              <li>Say no to Pollution</li>
+              <li>Covid 19</li>
+              <li>Medicine</li>
+              <li>Gaming Books</li>
+              <li>Programming</li>
+              <li>Digital Marketing</li>
+              <li>Learn About World</li>
+            </div>
+          </div>
+          <div class="menubox toolsbox">
+            <div class="menuhead tools arrow" data-target="tools-op">
+              <span class="head">Menu</span>
+              <span class="arrowBtn" data-target="tools-op">></span>
+            </div>
+            <div class="moreop option" id="tools-op">
+              <li><a onclick="hideMenu()" href="#home">Home</a></li>
+              <li><a onclick="hideMenu()" href="#products">Products</a></li>
+              <!-- <li>Services</li> -->
+              <!-- <li>Contact Us</li> -->
+              <li></li>
+            </div>
+          </div>
+          <div class="menubox menuoptions">
+            <div class="menuhead optionthree arrow" data-target="other-op">
+              <span class="head">optionthree</span>
+              <span class="arrowBtn" data-target="other-op">></span>
+            </div>
+            <div class="moreop option" id="other-op">
+              <li>option for more</li>
+              <li>option for more</li>
+              <li>option for more</li>
+              <li>option for more</li>
+            </div>
+          </div>
+
           <span id="cross">X</span>
         </div>
       </div>
@@ -94,7 +136,7 @@
       </ul>
     </div>
 
-    <section id="home-section" class="home-section">
+    <section id="home" class="home-section">
       <h1>BBForU</h1>
       <h2>Provide World Best Books</h2>
       <!-- <div id="homeMain" class="home-1">
@@ -127,7 +169,7 @@
       </ul>
     </div>
 
-    <section id="allBookHomePage" class="allBookHomePage">
+    <section id="products" class="allBookHomePage">
       <div id="comics" class="comics">
         <div class="comic-heading">Tranding Books</div>
         <div class="tranding-items comic-item">
@@ -150,6 +192,7 @@
       </div>
     </section>
 
+    <!-- Footer -->
     <footer class="footer">
       <div class="container">
         <div class="row">
@@ -203,6 +246,7 @@
     ></script>
     <script src="script/gsap.js"></script>
     <script src="script/script.js"></script>
+    <script src="script/menu.js"></script>
     <script
       src="https://kit.fontawesome.com/5a2806fb6d.js"
       crossorigin="anonymous"
