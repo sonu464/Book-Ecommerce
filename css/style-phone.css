@@ -236,13 +236,6 @@
     flex-direction: column;
   }
 
-  .menu li {
-    width: 89%;
-    text-align: center;
-    padding: 10px 0;
-    font-size: 20px;
-  }
-
   .menu li a {
     color: white;
     text-decoration: none;
