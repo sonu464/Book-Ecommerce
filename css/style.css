@@ -44,7 +44,8 @@ a {
   /* padding-top: 30px; */
   position: absolute;
   top: 0;
-  flex-direction: columnz-index:-1;
+  flex-direction: column;
+  z-index: -1;
 }
 
 .home-section h1 {
@@ -377,30 +378,7 @@ a {
   opacity: 1;
 }
 
-.menu ul {
-  list-style: none;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.menu li {
-  width: 89%;
-  text-align: center;
-  padding: 10px 0;
-  font-size: 20px;
-  background-color: red;
-  margin: 5px 0;
-}
-
-.menu li a {
-  color: white;
-  text-decoration: none;
-}
-
-.menu span {
+#cross {
   background-color: white;
   padding: 15px;
   border-radius: 50px;
