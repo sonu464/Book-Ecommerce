@@ -721,7 +721,8 @@ a {
 }
 
 .comic-item ul::-webkit-scrollbar {
-  height: 5px; /* Height of the horizontal scrollbar */
+  height: 5px; /* Height of the horizontal scrollbar*/
+display:none
 }
 
 .comic-item ul::-webkit-scrollbar-thumb {
