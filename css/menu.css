@@ -1,0 +1,70 @@
+.menubar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(255 255 255);
+}
+.menubox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(255 255 255);
+}
+.menuhead {
+  width: 95%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: rgb(255, 0, 85);
+  border-top-right-radius: 5px;
+
+  border-top-left-radius: 5px;
+  margin-top: 2%;
+}
+.menuhead .head {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  border-radius: 3px;
+}
+.menuhead .arrow {
+  font-weight: bold;
+  padding: 0 10px;
+  color: white;
+}
+.moreop {
+  width: 95%;
+  padding: 5px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(255, 0, 85);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+  color: white;
+  display: none;
+}
+
+.moreop.show {
+  display: flex;
+}
+
+.moreop li {
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  list-style: none;
+  margin: 5px;
+}
+
+.moreop a {
+  color: white;
+}
