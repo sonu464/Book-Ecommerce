@@ -12,10 +12,10 @@ gsap.to("#navigation", {
   },
 });
 
-gsap.to("#allBookHomePage", {
+gsap.to("#products", {
   backgroundColor: "rgb(249, 23, 63)",
   scrollTrigger: {
-    trigger: "#allBookHomePage",
+    trigger: "#products",
     scroller: "body",
     // markers: true,
     start: "top 70%",
